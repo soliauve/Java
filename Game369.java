@@ -10,7 +10,7 @@ public class Game369{
         }
         else{
             long k = n / 10; //moves the decimal point one place to the left. Hence the last digit gets truncated and the digit to the left of the orginal number becomes the new last digit.
-            if(k % 10 == 3 || k % 10 == 6 || k % 10 == 9){ //checks if the new last digit is either 3,6,9.
+            if(k % 10 == 3 || k % 10 == 6 || k % 10 == 9){ //checks if the new last digit is either 3,6,9. Note: nmodm (if m>n = n).
                 result = true;
             }
             else{
